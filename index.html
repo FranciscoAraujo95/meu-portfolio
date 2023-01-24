@@ -11,9 +11,9 @@
     <header class="menu">
       <h1>Francisco Araújo</h1>
       <ul>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Experiência</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </header>
 
@@ -47,7 +47,7 @@
       </section>
 
       <section class="stacks">
-        <h1>Stacks que estudo</h1>
+        <h1 class="h1-config">Stacks que estudo</h1>
         <div class="stack-icons">
           <img src="icones/001-css.png" alt="css icon" />
           <img src="icones/002-html.png" alt="css icon" />
@@ -55,23 +55,39 @@
         </div>
       </section>
 
-      <section class="grid-section projetos">
-        <ul>
-          <li>
-            <a href="">
-              <h2>Projeto Android 🤖</h2>
-            </a>
-          </li>
-        </ul>
-        <div>
+      <div class="container-projetos" id="projetos">
+        <h1 class="h1-config">Meus projetos</h1>
+        <section class="projetos">
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, ad
-            eos. Hic veniam beatae architecto optio a quasi molestiae nostrum,
-            cum quo laboriosam tempore tenetur sunt, voluptates deserunt
-            blanditiis non!
+            Aqui você vai encontrar alguns dos meus projetos. Clique em cima
+            para visitar a página completa!
           </p>
-        </div>
-      </section>
+          <div class="card-flex">
+            <div class="card">
+              <div class="innercard">
+                <img src="imagens/undraw_static_website_re_x70h.svg" alt="" />
+              </div>
+              <p>Projeto Android</p>
+            </div>
+            <div class="card">
+              <div class="innercard">
+                <img src="imagens/undraw_static_website_re_x70h.svg" alt="" />
+              </div>
+              <p>Glass Site</p>
+            </div>
+            <div class="card">
+              <div class="innercard">
+                <img src="imagens/undraw_static_website_re_x70h.svg" alt="" />
+              </div>
+              <p>Interface Neflix</p>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
+
+    <footer class="footer">
+      <p>Francisco Araújo. Alguns direitos reservados.</p>
+    </footer>
   </body>
 </html>

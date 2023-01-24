@@ -19,6 +19,7 @@ body h1 {
 body p {
   text-align: justify;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+  margin: 1em auto;
 }
 body img {
   width: 400px;
@@ -91,10 +92,10 @@ body strong {
   font-size: 1.1em;
 }
 
-.stacks h1 {
+.h1-config {
   font-size: 3em;
   text-align: center;
-  margin-bottom: 2em;
+  margin: 0 auto;
 }
 
 .stack-icons {
@@ -105,12 +106,88 @@ body strong {
 }
 .stacks img {
   max-height: 100%;
-  width: 200px;
+  width: 150px;
   background-color: #fff;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.projetos ul {
-  justify-self: center;
+.container-projetos {
+  margin: 10.1em auto;
+  padding: 30px;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
 }
 
+.container-projetos h1 {
+  color: rgb(73, 0, 73);
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.container-projetos p {
+  text-align: center;
+}
+
+.container-projetos ul {
+  list-style: none;
+}
+
+.container-projetos li a {
+  text-decoration: none;
+}
+
+.container-projetos li a:hover {
+  text-decoration: underline;
+}
+
+.container-projetos p {
+  color: #551a8b;
+  font-size: 1.1em;
+}
+
+.card {
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: #551a8b;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  position: relative;
+}
+
+.card p {
+  color: white;
+  position: absolute;
+
+  top: 75%;
+  left: 5%;
+}
+
+.innercard {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 230px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.innercard img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: purple;
+  display: flex;
+}
