@@ -4,81 +4,87 @@
 }
 
 body {
-  background-image: linear-gradient(to right bottom, purple, rgb(80, 3, 80));
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom right, #0100ec, #fb36f4);
   height: 100%;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-}
-
-.container {
-  height: 100%;
-  max-width: 1400px;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  gap: 100px;
-  margin: 6em auto;
-}
-
-.descricao {
   color: white;
-  font-weight: 500;
-  font-size: 4em;
-  font-weight: 500;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
-  position: relative;
 }
 
-header img {
-  width: 700px;
-}
-
-.h1-descricao {
-  font-size: 4em;
-  max-width: 50ch;
-  line-height: 1.4;
-}
-
-.h1-nav {
-  font-size: 3em;
+body h1 {
   color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
 }
 
-nav {
+body p {
+  text-align: justify;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+}
+body img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.img-shadow {
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.411);
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.menu {
+  padding: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0px 20px;
+  justify-content: space-around;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
 }
 
-nav ul {
+.menu h1 {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+.menu ul {
   display: flex;
   list-style: none;
   padding: 10px;
 }
 
-nav li a {
+.menu li a {
   color: white;
   padding: 10px;
-  margin-right: 20px;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.1em;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+  margin-left: 10px;
+  border-radius: 5px;
 }
 
-main {
-  max-width: 1200px;
-  height: 100vh;
-  margin: auto;
-  display: flex;
+.menu li a:hover {
+  background-image: linear-gradient(to bottom right, #0100ec, #fb36f4);
+  box-shadow: 5px 5px rgb(0, 17, 255);
+}
+
+.grid-section {
+  display: grid;
   align-items: center;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr;
   gap: 2em;
+  margin: 10.1em auto;
 }
 
-main p {
-  max-width: 500px;
-  text-align: justify;
-  color: rgb(233, 160, 233);
+.introducao {
+  height: 100%;
+}
+
+main .grid-section h1 {
+  font-size: 2em;
+  width: 450px;
+  text-align: center;
+  justify-self: end;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
+}
+
+body strong {
+  color: rgb(73, 0, 73);
+  font-size: 1.1em;
 }
