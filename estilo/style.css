@@ -95,7 +95,7 @@ body strong {
 .h1-config {
   font-size: 3em;
   text-align: center;
-  margin: 0 auto;
+  margin: 1em auto;
 }
 
 .stack-icons {
@@ -190,4 +190,10 @@ body strong {
   width: 100%;
   background-color: #551a8b;
   display: flex;
+  align-items: center;
+}
+
+.footer p {
+  padding: 10px;
+  font-size: 0.875em;
 }
