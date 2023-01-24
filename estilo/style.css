@@ -7,6 +7,7 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to bottom right, #0100ec, #fb36f4);
   height: 100%;
+  width: 100%;
   color: white;
 }
 
@@ -116,6 +117,7 @@ body strong {
   padding: 30px;
   border-radius: 15px;
   background-image: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
 }
 
 .container-projetos h1 {
@@ -161,7 +163,7 @@ body strong {
   color: white;
   position: absolute;
 
-  top: 75%;
+  top: 74%;
   left: 5%;
 }
 
