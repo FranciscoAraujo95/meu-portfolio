@@ -188,6 +188,6 @@ body strong {
 .footer {
   height: 50px;
   width: 100%;
-  background-color: purple;
+  background-color: #551a8b;
   display: flex;
 }
