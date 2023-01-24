@@ -180,7 +180,7 @@ body strong {
 
 .card-flex {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 }
