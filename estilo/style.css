@@ -27,6 +27,10 @@ body img {
   border-radius: 10px;
 }
 
+body ul {
+  list-style: none;
+}
+
 .img-shadow {
   box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.411);
 }
@@ -91,6 +95,7 @@ main .grid-section h1 {
 body strong {
   color: rgb(73, 0, 73);
   font-size: 1.1em;
+  box-shadow: none;
 }
 
 .h1-config {
@@ -195,6 +200,42 @@ body strong {
 .card-flex img:hover {
   filter: grayscale(0%);
   transition: 0.5s;
+}
+
+.contatos {
+  padding: 5em;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.contatos h1 {
+  margin: 0 auto 1em;
+  grid-column: 1/3;
+}
+
+.contatos p {
+  width: 400px;
+  font-size: 1.5em;
+  justify-self: end;
+  line-height: 1.5;
+}
+
+.contatos li a {
+  color: white;
+  font-size: 2.5em;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+.contato-links li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contato-links img {
+  width: 36px;
+  height: 36px;
 }
 
 .footer {
