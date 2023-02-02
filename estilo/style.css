@@ -191,7 +191,7 @@ body strong {
   content: '';
   margin-right: 10px;
   border-radius: 50%;
-  /* border: 1px solid white; */
+  border: 1px solid white;
   height: 15px;
   width: 15px;
   background-image: linear-gradient(to right bottom, #0100ec, #fb36f4);
