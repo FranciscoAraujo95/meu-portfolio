@@ -241,6 +241,11 @@ body strong {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
 }
 
+.contatos li a:hover {
+  text-decoration: underline;
+  color: #551a8b;
+}
+
 .contato-links {
   place-self: center;
 }
