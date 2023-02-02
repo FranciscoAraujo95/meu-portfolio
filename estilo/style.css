@@ -261,6 +261,18 @@ body strong {
   height: 36px;
 }
 
+#back-to-top {
+  position: absolute;
+  padding: 10px;
+  border-radius: 15px;
+  left: 95%;
+}
+
+#back-to-top:hover {
+  background-color: white;
+  transition-duration: .5s;
+}
+
 .footer {
   height: 50px;
   width: 100%;
