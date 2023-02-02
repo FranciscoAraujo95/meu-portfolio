@@ -187,8 +187,22 @@ body strong {
   left: 5%;
 }
 
+.card p::before {
+  content: '';
+  margin-right: 10px;
+  border-radius: 50%;
+  /* border: 1px solid white; */
+  height: 15px;
+  width: 15px;
+  background-image: linear-gradient(to right bottom, #0100ec, #fb36f4);
+  display: inline-block;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.322);
+}
+
 .innercard {
-  background-color: #fff;
+  background-color: white;
+  background-position: center center;
+  background-size: cover;
   border-radius: 10px;
   width: 230px;
   height: 140px;
@@ -207,11 +221,11 @@ body strong {
   justify-content: center;
 }
 
-.card-flex img {
+.card-flex a {
   filter: grayscale(100%);
 }
 
-.card-flex img:hover {
+.card-flex a:hover {
   filter: grayscale(0%);
   transition: 0.5s;
 }
@@ -242,7 +256,6 @@ body strong {
 }
 
 .contatos li a:hover {
-  text-decoration: underline;
   color: #551a8b;
 }
 
@@ -270,7 +283,7 @@ body strong {
 
 #back-to-top:hover {
   background-color: white;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .footer {
