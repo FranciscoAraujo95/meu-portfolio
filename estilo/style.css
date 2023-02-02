@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to bottom right, #0100ec, #fb36f4);
@@ -23,7 +27,7 @@ body p {
   margin: 1em auto;
 }
 body img {
-  width: 400px;
+  width: 500px;
   border-radius: 10px;
 }
 
@@ -36,7 +40,7 @@ body ul {
 }
 
 main {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -51,6 +55,17 @@ main {
 .menu h1 {
   font-size: 1.3em;
   font-weight: normal;
+}
+
+.menu h1 a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu h1 a:hover {
+  background-color: #551a8b;
 }
 
 .menu ul {
@@ -69,7 +84,7 @@ main {
 
 .menu li a:hover {
   background-color: #551a8b;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .grid-section {
@@ -77,29 +92,28 @@ main {
   align-items: center;
   grid-template-columns: 1fr 1fr;
   gap: 2em;
-  margin: 10.1em auto;
+  margin: 16.5em auto;
 }
 
-.introducao {
+/* .introducao {
   height: 100%;
-}
+} */
 
 main .grid-section h1 {
-  font-size: 3em;
-  width: 450px;
+  font-size: 4em;
+  width: 600px;
   text-align: center;
-  justify-self: end;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.384);
 }
 
 body strong {
-  color: rgb(73, 0, 73);
+  color: rgb(189, 85, 189);
   font-size: 1.1em;
   box-shadow: none;
 }
 
 .h1-config {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
   margin: 1em auto;
 }
@@ -108,7 +122,7 @@ body strong {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1em;
+  gap: 3em;
 }
 .stacks img {
   max-height: 100%;
@@ -139,17 +153,17 @@ body strong {
   list-style: none;
 }
 
-.container-projetos li a {
-  text-decoration: none;
-}
-
-.container-projetos li a:hover {
-  text-decoration: underline;
-}
-
 .container-projetos p {
   color: #551a8b;
   font-size: 1.1em;
+}
+
+.container-projetos p a {
+  text-decoration: none;
+}
+
+.container-projetos p a:hover {
+  text-decoration: underline;
 }
 
 .card {
@@ -227,6 +241,10 @@ body strong {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
 }
 
+.contato-links {
+  place-self: center;
+}
+
 .contato-links li {
   display: flex;
   align-items: center;
@@ -249,4 +267,13 @@ body strong {
 .footer p {
   padding: 10px;
   font-size: 0.875em;
+}
+
+.footer p a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
 }
