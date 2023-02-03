@@ -160,10 +160,23 @@ body strong {
 
 .container-projetos p a {
   text-decoration: none;
+  position: relative;
 }
 
-.container-projetos p a:hover {
-  text-decoration: underline;
+.container-projetos p a::before {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #fb36f4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  transition: width 0.5s;
+}
+
+.container-projetos p a:hover::before {
+  width: 100%;
 }
 
 .card {
@@ -321,8 +334,23 @@ body strong {
 .footer p a {
   color: white;
   text-decoration: none;
+  position: relative;
 }
 
-.footer p a:hover {
-  text-decoration: underline;
+.footer p a::before {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #eee;
+  display: inline-block;
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  transition: width 0.5s;
+}
+
+.footer p a:hover::before {
+  width: 100%;
 }
