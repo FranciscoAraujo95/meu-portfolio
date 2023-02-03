@@ -66,6 +66,7 @@ main {
 
 .menu h1 a:hover {
   background-color: #551a8b;
+  transition-duration: 0.5s;
 }
 
 .menu ul {
