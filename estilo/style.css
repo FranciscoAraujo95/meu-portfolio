@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to bottom right, #0100ec, #fb36f4);
   height: 100%;
   width: 100%;
@@ -188,7 +188,7 @@ body strong {
 }
 
 .card p::before {
-  content: '';
+  content: "";
   margin-right: 10px;
   border-radius: 50%;
   border: 1px solid white;
@@ -253,10 +253,29 @@ body strong {
   font-size: 2.5em;
   text-decoration: none;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+  position: relative;
 }
 
 .contatos li a:hover {
   color: #551a8b;
+}
+
+.contatos li a::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: #551a8b;
+  display: inline-block;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  transition: width 0.5s;
+}
+
+.contatos li a:hover::before {
+  width: 100%;
 }
 
 .contato-links {
