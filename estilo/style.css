@@ -247,7 +247,6 @@ body strong {
 .grid-section-exp {
   display: grid;
   align-items: center;
-
   grid-template-columns: 1fr 2fr;
   gap: 2em;
   margin: 16.5em auto;
@@ -259,25 +258,32 @@ body strong {
   gap: 2em;
   color: rgb(46, 46, 46);
   background-image: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 1em;
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.37);
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315);
 }
 
+.grid-section-exp .container h2 {
+  font-weight: bold;
+  color: #3f1269;
+}
+
 .grid-section-exp h1 {
   font-weight: 600;
   line-height: 1.2;
-  font-size: 9em;
+  font-size: 10em;
   text-transform: uppercase;
   max-width: 4ch;
   word-break: break-all;
 }
 
 .grid-section-exp h2 {
+  font-weight: normal;
   font-size: 1.3em;
   margin-bottom: 1em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.384);
 }
 
 .grid-section-exp h2 strong {
@@ -285,8 +291,8 @@ body strong {
 }
 
 .grid-section-exp p {
-  color: black;
-  font-size: 0.875em;
+  color: #551a8b;
+  font-size: 1em;
 }
 
 .grid-section-exp ul {
@@ -297,7 +303,7 @@ body strong {
 
 .grid-section-exp ul li {
   font-weight: bold;
-  color: rgb(80, 80, 80);
+  color: #551a8b;
   background-color: lightgray;
   padding: 10px 15px;
   border-radius: 10px;
