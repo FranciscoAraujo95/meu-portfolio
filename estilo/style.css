@@ -166,14 +166,14 @@ body strong {
 
 .container-projetos p a::before {
   content: "";
+  position: absolute;
   height: 2px;
   width: 0%;
   background-color: #bd55bd;
-  position: absolute;
   left: 0;
   bottom: 0;
 
-  transition: width 0.5s;
+  transition: 0.5s;
 }
 
 .container-projetos p a:hover::before {
@@ -285,7 +285,7 @@ body strong {
   left: 0;
   bottom: 0;
 
-  transition: width 0.5s;
+  transition: 0.5s;
 }
 
 .contatos li a:hover::before {
@@ -349,7 +349,7 @@ body strong {
   left: 0;
   bottom: 0;
 
-  transition: width 0.5s;
+  transition: 0.5s;
 }
 
 .footer p a:hover::before {
