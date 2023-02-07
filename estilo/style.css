@@ -280,6 +280,7 @@ body strong {
 }
 
 .grid-section-exp h2 {
+  text-align: justify;
   font-weight: normal;
   font-size: 1.3em;
   margin-bottom: 1em;
