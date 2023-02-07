@@ -244,6 +244,66 @@ body strong {
   transition: 0.5s;
 }
 
+.grid-section-exp {
+  display: grid;
+  align-items: center;
+
+  grid-template-columns: 1fr 2fr;
+  gap: 2em;
+  margin: 16.5em auto;
+}
+
+.grid-section-exp .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  color: rgb(46, 46, 46);
+  background-image: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
+  padding: 15px;
+  margin-bottom: 1em;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.37);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315);
+}
+
+.grid-section-exp h1 {
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 9em;
+  text-transform: uppercase;
+  max-width: 4ch;
+  word-break: break-all;
+}
+
+.grid-section-exp h2 {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+.grid-section-exp h2 strong {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+}
+
+.grid-section-exp p {
+  color: black;
+  font-size: 0.875em;
+}
+
+.grid-section-exp ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.grid-section-exp ul li {
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+  background-color: lightgray;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.342);
+}
+
 .contatos {
   padding: 5em;
   background-color: #000;
